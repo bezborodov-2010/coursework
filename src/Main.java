@@ -5,29 +5,29 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Курсач");
 
-        String employeeName1 = "Борис";
-        String employeeName2 = "Олеся";
-        String employeeName3 = "Виталий";
-        String employeeName4 = "Наталья";
-        String employeeName5 = "Андрей";
+        String employeeName1 = "Борис ";
+        String employeeName2 = "Олеся ";
+        String employeeName3 = "Виталий ";
+        String employeeName4 = "Наталья ";
+        String employeeName5 = "Андрей ";
 
-        String employeeName6 = "Василий";
-        String employeeName7 = "Анжела";
-        String employeeName8 = "Ольга";
-        String employeeName9 = "Семен";
-        String employeeName10 = "Геннадий";
+        String employeeName6 = "Василий ";
+        String employeeName7 = "Анжела ";
+        String employeeName8 = "Ольга ";
+        String employeeName9 = "Семен ";
+        String employeeName10 = "Геннадий ";
 
-        String employeeSecondName1 = "Сергеевич";
-        String employeeSecondName2 = "Владимировна";
-        String employeeSecondName3 = "Витальевич";
-        String employeeSecondName4 = "Андреевна";
-        String employeeSecondName5 = "Васильевич";
+        String employeeSecondName1 = "Сергеевич ";
+        String employeeSecondName2 = "Владимировна ";
+        String employeeSecondName3 = "Витальевич ";
+        String employeeSecondName4 = "Андреевна ";
+        String employeeSecondName5 = "Васильевич ";
 
-        String employeeSecondName6 = "Степанович";
-        String employeeSecondName7 = "Петровна";
-        String employeeSecondName8 = "Викторовна";
-        String employeeSecondName9 = "Семенович";
-        String employeeSecondName10 = "Петрович";
+        String employeeSecondName6 = "Степанович ";
+        String employeeSecondName7 = "Петровна ";
+        String employeeSecondName8 = "Викторовна ";
+        String employeeSecondName9 = "Семенович ";
+        String employeeSecondName10 = "Петрович ";
 
         String employeeLastName1 = "Иванов";
         String employeeLastName2 = "Степанова";
