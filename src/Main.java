@@ -137,7 +137,7 @@ public class Main {
         int salary = employeeArray[0].getSalary();
         Employee employeeWithMaxSalary = employeeArray[0];
         for (i = 0; i < employeeArray.length; i++) {
-            if (employeeArray[i].getSalary() < salary) {
+            if (employeeArray[i].getSalary() > salary) {
                 employeeWithMaxSalary = employeeArray[i];
                 salary = employeeArray[i].getSalary();
             }
