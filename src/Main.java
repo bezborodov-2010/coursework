@@ -64,6 +64,17 @@ public class Main {
         int employeeSalary8 = 54000;
         int employeeSalary9 = 85500;
         int employeeSalary10 = 10000;
+
+        employeeArray[0] = new Employee(employeeName1, employeeSecondName1, employeeLastName1, deptName1, employeeSalary1);
+        employeeArray[1] = new Employee(employeeName2, employeeSecondName2, employeeLastName2, deptName2, employeeSalary2);
+        employeeArray[2] = new Employee(employeeName3, employeeSecondName3, employeeLastName3, deptName3, employeeSalary3);
+        employeeArray[3] = new Employee(employeeName4, employeeSecondName4, employeeLastName4, deptName4, employeeSalary4);
+        employeeArray[4] = new Employee(employeeName5, employeeSecondName5, employeeLastName5, deptName5, employeeSalary5);
+        employeeArray[5] = new Employee(employeeName6, employeeSecondName6, employeeLastName6, deptName6, employeeSalary6);
+        employeeArray[6] = new Employee(employeeName7, employeeSecondName7, employeeLastName7, deptName7, employeeSalary7);
+        employeeArray[7] = new Employee(employeeName8, employeeSecondName8, employeeLastName8, deptName8, employeeSalary8);
+        employeeArray[8] = new Employee(employeeName9, employeeSecondName9, employeeLastName9, deptName9, employeeSalary9);
+        employeeArray[9] = new Employee(employeeName10, employeeSecondName10, employeeLastName10, deptName10, employeeSalary10);
 //
         printEmployeListAndData(counter);
         System.out.println();
@@ -77,17 +88,6 @@ public class Main {
         System.out.println();
         printEmployeeList(counter);
         System.out.println();
-
-        employeeArray[0] = new Employee(employeeName1, employeeSecondName1, employeeLastName1, deptName1, employeeSalary1);
-        employeeArray[1] = new Employee(employeeName2, employeeSecondName2, employeeLastName2, deptName2, employeeSalary2);
-        employeeArray[2] = new Employee(employeeName3, employeeSecondName3, employeeLastName3, deptName3, employeeSalary3);
-        employeeArray[3] = new Employee(employeeName4, employeeSecondName4, employeeLastName4, deptName4, employeeSalary4);
-        employeeArray[4] = new Employee(employeeName5, employeeSecondName5, employeeLastName5, deptName5, employeeSalary5);
-        employeeArray[5] = new Employee(employeeName6, employeeSecondName6, employeeLastName6, deptName6, employeeSalary6);
-        employeeArray[6] = new Employee(employeeName7, employeeSecondName7, employeeLastName7, deptName7, employeeSalary7);
-        employeeArray[7] = new Employee(employeeName8, employeeSecondName8, employeeLastName8, deptName8, employeeSalary8);
-        employeeArray[8] = new Employee(employeeName9, employeeSecondName9, employeeLastName9, deptName9, employeeSalary9);
-        employeeArray[9] = new Employee(employeeName10, employeeSecondName10, employeeLastName10, deptName10, employeeSalary10);
     }
 
 
