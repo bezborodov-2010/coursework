@@ -1,5 +1,5 @@
 public class Main {
-    static int counter = 1;
+
     static Employee[] employeeArray = new Employee[10];
 
     public static void main(String[] args) {
@@ -16,28 +16,28 @@ public class Main {
         employeeArray[8] = new Employee("Семен ", "Семенович ", "Турбина", 4, 85500);
         employeeArray[9] = new Employee("Геннадий ", "Петрович ", "Малахов", 5, 10000);
 //
-        printEmployeListAndData(counter);
+        printEmployeListAndData();
         System.out.println();
-        calculateAndPrintMounthSalary(counter);
+        calculateAndPrintMounthSalary();
         System.out.println();
-        findeAndPrintMinSalaryEmployee(counter);
+        findeAndPrintMinSalaryEmployee();
         System.out.println();
-        findeAndPrintMaxSalaryEmployee(counter);
+        findeAndPrintMaxSalaryEmployee();
         System.out.println();
-        calculateAndPrintAverageMounthSalary(counter);
+        calculateAndPrintAverageMounthSalary();
         System.out.println();
-        printEmployeeList(counter);
+        printEmployeeList();
         System.out.println();
     }
 
 
-    public static void printEmployeListAndData(int idEmp) {
+    public static void printEmployeListAndData() {
         for (int i = 0; i < employeeArray.length; i++) {
             System.out.println(employeeArray[i]);
         }
     }
 
-    public static void calculateAndPrintMounthSalary(int idEmp) {
+    public static void calculateAndPrintMounthSalary() {
         int i = 0;
         int sum = 0;
         for (Employee emp : employeeArray) {
@@ -50,9 +50,8 @@ public class Main {
     }
 
 
-    public static void findeAndPrintMinSalaryEmployee(int idEmp) {
+    public static void findeAndPrintMinSalaryEmployee() {
         int i;
-        int j = 0;
         int salary = employeeArray[0].getSalary();
         Employee employeeWithMinSalary = employeeArray[0];
         for (i = 0; i < employeeArray.length; i++) {
@@ -66,9 +65,8 @@ public class Main {
 
     }
 
-    public static void findeAndPrintMaxSalaryEmployee(int idEmp) {
+    public static void findeAndPrintMaxSalaryEmployee() {
         int i;
-        int j = 0;
         int salary = employeeArray[0].getSalary();
         Employee employeeWithMaxSalary = employeeArray[0];
         for (i = 0; i < employeeArray.length; i++) {
@@ -82,7 +80,7 @@ public class Main {
 
     }
 
-    public static void calculateAndPrintAverageMounthSalary(int idEmp) {
+    public static void calculateAndPrintAverageMounthSalary() {
         int i = 0;
         int sum = 0;
         double sumAverage = 0;
@@ -91,12 +89,12 @@ public class Main {
                 sum = sum + emp.getSalary();
             } else break;
         }
-        sumAverage = (double) sum/employeeArray.length;
+        sumAverage = (double) sum / employeeArray.length;
         System.out.println("Средняя з/п сотрудников за месяц =" + sumAverage);
         System.out.println();
     }
 
-    public static void printEmployeeList(int idEmp) {
+    public static void printEmployeeList() {
         for (int i = 0; i < employeeArray.length; i++) {
             System.out.println("ФИО сотрудника " + employeeArray[i].getName() + employeeArray[i].getSecondName() + employeeArray[i].getLastName());
         }
