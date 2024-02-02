@@ -37,7 +37,7 @@ public class Main {
         }
     }
 
-    public static void calculateAndPrintMounthSalary() {
+    public static void calculateAndPrintMounthSalary(int idEmp) {
         int i = 0;
         int sum = 0;
         for (Employee emp : employeeArray) {
